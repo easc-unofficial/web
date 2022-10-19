@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'roboto-mono';
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+
+
+
+body{
+    background-color: rgba(27, 26, 26, 0.945);
+   
+    height: 100vh;
+    color:white;
+    font-size: 2rem;
+    height: 100vh;
+    font-family: roboto-mono;
+
+}
+
+.logo{
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-family: roboto-mono;
+letter-spacing: 3px;
+text-align: center;
+margin-top:-1rem;
+margin-bottom: 5rem;
+text-transform: uppercase;
+text-shadow: 2px 1px 10px rgb(8, 245, 20);
+animation: anime1 2s linear infinite;
+}
+
+
+.basic-info{
+    font-size: 1.2rem;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(19, 17, 17);
+    width: 27rem;
+    margin: auto;
+    height: auto;
+    border-radius: 7px;
+
+}
+  
+
+
+#dynamic1{
+    color: white;
+    font-size: 0.9rem;
+    align-items: center;
+    display: flex;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+
+max-height: 30px;
+}
+
+
+
+
+.btns-yellow,.btns-green,.btns-red{
+    width: 8px;
+    height: 8px;
+    margin: 6px;
+    padding: 0.1rem;
+    border-radius: 50%;
+}
+.btns-green{
+    background-color: green;
+}
+.btns-red{
+    background-color: red;
+
+}
+
+.btns-yellow{
+    background-color: yellow;
+}
+
+
+.texts
+{
+    color:rgb(43, 255, 0);
+    font-size: 12px;
+    text-align: left;
+    padding: 8px;
+    width: fit-content;
+    margin-top:-18px;
+    font-family: monospace;
+    font-weight: bolder;
+    letter-spacing: 0.6px;
+}
+
+
+
+@media screen and (max-width:780px)
+{
+
+body{
+    padding: 1rem;
+}
+
+ 
+    .basic-info{
+        font-size: 0.7rem;
+        color: white;
+        background-color: rgb(19, 17, 17);
+        width: 21.2rem;
+        overflow: hidden;
+    margin-left: -0.7rem;
+    border-radius: 9px;
+    }
+
+#dynamic{
+    position: fixed;
+}
+      
+.logo{
+    margin-bottom: 9rem;
+}
+.texts{
+    font-size: 9.7px;
+}
+}
+
+span{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+@keyframes anime1{
+    10%{
+        text-shadow: 0px 1px 1px cyan;
+
+    }
+
+    90%{
+    text-shadow:2px 2px 10px red;
+    }
+}
+
+
+
+#dynamic{
+    text-align: center;
+    margin:1rem
+}
+
+
+
+.images1 img
+{
+    margin:1rem;
+    border-radius: 12px;
+    max-width: 100;
+    display: flex;
+}
